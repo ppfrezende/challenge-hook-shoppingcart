@@ -111,3 +111,17 @@ export const Total = styled.div`
     margin-left: 5px;
   }
 `;
+
+export const EmptyCart = styled.div`
+  padding: 30px;
+  background: #fff;
+  border-radius: 4px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  svg {
+    margin-bottom: 20px;
+  }
+`;
